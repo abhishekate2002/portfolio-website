@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    position: relative;
+    flex-direction:column;
+    background-color: #00474A;
+    height: 380px;
+    width: 150px;
+    border-radius: 4px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image-container{
+    display: flex;
+    align-self: flex-start;
+}
+
+.qtext{
+    background-color: #00474A;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'poppins';
+    font-size: 14px;
+    color: #F2EDE0;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.project-text{
+    display: inline;
+    background-color: #00474A;
+    color: #F2EDE0;
+    rotate: 270deg;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.openLink{
+    position: absolute;
+    top: 0px; /* Adjust the distance from the top */
+    right:0px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 3px; 
+    
+height: 12px;
+width: 12px;
+}

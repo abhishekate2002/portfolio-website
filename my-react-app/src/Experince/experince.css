@@ -1,0 +1,43 @@
+.exp-container{
+    display: inline-flex;
+    flex-direction:column;
+    background-color: #42AF71;
+    height: 380px;
+    width: 150px;
+    border-radius: 4px;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 12px;
+    justify-content: space-between;
+}
+
+
+.image{
+    margin-top: 5px;
+    height: 80px;
+    background-color: #42AF71;
+}
+
+
+.exp-text{
+    background-color: #42AF71;
+    display: inline;
+    color: #CDFFEC  ;
+    rotate: 270deg;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 40px;
+
+
+}
+
+.q-text{
+    background-color: #42AF71;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+
+}

@@ -1,0 +1,9 @@
+img{
+    display:flex;
+    float: bottom;
+    height: 100px;
+    width: 95px;
+    
+
+    background-color: #00474A;
+}

@@ -1,0 +1,16 @@
+.img-container{
+    
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.top-right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 80px;
+    width: 100px;
+  background-color: transparent;
+
+}

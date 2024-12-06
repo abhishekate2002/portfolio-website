@@ -7,15 +7,22 @@ function App() {
   return (
     <>
     <div className='main-container'>
+
       <div className="group1">
+
         <div className="sub-group1">
+
           <Project/>
           <Experince/> 
-        </div>
+
+        </div>         
+
         <Education/>
 
          
       </div>
+
+      div.group3
     
     </div>
      

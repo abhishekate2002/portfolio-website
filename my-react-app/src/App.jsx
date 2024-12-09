@@ -3,6 +3,7 @@ import './App.css'
 import Project from './Project/Project'
 import Experince from './Experince/Experince'
 import Education from './Education/Education'
+import Head from './Head/Head'
 function App() {
   return (
     <>
@@ -22,7 +23,9 @@ function App() {
          
       </div>
 
-      div.group3
+      <div className="group3">
+        <Head/>
+      </div>
     
     </div>
      

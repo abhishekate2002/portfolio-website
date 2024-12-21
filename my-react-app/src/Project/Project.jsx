@@ -22,7 +22,9 @@ export default function Project() {
                 </h3>
                 
                 <div className="image-container">
-                <Machine/>
+                
+                    <Machine/>
+                    
                 </div>
                     
                 

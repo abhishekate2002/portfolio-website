@@ -1,0 +1,63 @@
+.social-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #42AF71;
+    
+    width: 150px;
+    height: 312px;
+    margin-left: 12px;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+
+
+
+}
+
+img{
+    background-color: transparent;
+}
+
+
+.github {
+    /* Your styles for GitHub icon */
+    height: 45px;
+    width: 50px;
+    margin: 4PX
+}
+
+.linkedin {
+    /* Your styles for LinkedIn icon */
+    height: 45px;
+    width: 45px;
+    margin-top: 4PX
+}
+
+.mail {
+    /* Your styles for Mail icon */
+    height: 50px;
+    width: 50px;
+    margin-top: 8PX
+}
+
+.phone {
+    /* Your styles for Phone icon */
+    height: 50px;
+    width: 50px;
+    margin-top: 4PX
+}
+
+.base-text{
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+    color: #FFC037;
+}

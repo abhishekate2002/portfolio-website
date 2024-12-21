@@ -6,7 +6,7 @@
     background-color: #FFEBFA;
     justify-content: space-between;
     width: 475px;
-    height: 184px;
+    max-height: 200px;
     margin-left: 12px;
     border-radius: 4px;
 }

@@ -5,6 +5,14 @@
   font-family:"Poppins";
 }
 
+.container-is-the-main{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  box-sizing: border-box;
+  max-height: 100vh;
+  
+}
 .main-container{
   display: flex;
   justify-content: center;
@@ -21,4 +29,51 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sub-group-2{
+  display: flex;
+}
+
+.group3{
+  display: flex;
+  height: 380px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.group4{
+  display: flex;
+  flex-direction: row;
+}
+
+.group6{
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+
+.main-group-of-4-and-5{
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible;
+  width: 150px;
+  align-items: flex-end;
+  margin-left: 12px;
+}
+
+.group-pf-edu-achi-cert{
+  display: flex;
+  overflow: visible;
+  height: 300px;
+  width: 300px;
+
+  margin-top: 12px;
+}
+
+.group-of-achiv-and-certifi{
+  display: flex;
+  flex-direction: column;
 }

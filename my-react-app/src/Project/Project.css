@@ -15,6 +15,9 @@
 .image-container{
     display: flex;
     align-self: flex-start;
+    justify-content: flex-start;
+    background-color: transparent;
+
 }
 
 .qtext{

@@ -3,7 +3,10 @@ img{
     float: bottom;
     height: 90px;
     width: 95px;
-    
+    background-color: transparent;
+}
 
-    background-color: #00474A;
+.img-carry{
+    background-color: transparent;
+
 }

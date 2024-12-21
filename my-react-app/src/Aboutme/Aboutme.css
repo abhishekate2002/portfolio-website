@@ -1,0 +1,34 @@
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 90px;
+    background-color: #ABA3F4;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.main-heading-text{
+   color:#F8FDA8;
+    font-weight: 700;
+    font-size:28px;
+    border-radius: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+
+}
+
+.about-me-context{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: #5222D0;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    background-color: transparent;
+}

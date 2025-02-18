@@ -1,6 +1,6 @@
 .mob-certificate-main-container{
     display: flex;
-    justify-content: center;    
+    justify-content: flex-start;    
     height: 115px;
     min-width: 100%;
     background-color: #5C8F75;
@@ -14,7 +14,8 @@
 }
 
 .mob-rocket-image{
-    align-self: self-end;
+    justify-self: flex-start;
+    align-self:self-end;
     height: 80px;
 
 }

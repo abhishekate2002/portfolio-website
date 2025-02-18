@@ -1,0 +1,84 @@
+.mob-education-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    height:115px;
+    background-color: #9BD9BC;
+    border-radius: 4px;
+}
+
+.mob-top-books-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #9BD9BC;
+    max-height: 20px;
+}
+
+.mob-education-text{
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 5px;
+    justify-content: center;
+    align-self: center;
+    background-color: #9BD9BC;
+    color: #FF82D6;
+    font-weight: 600;
+    /* margin-bottom: 2px; */
+
+}
+
+.mob-context{
+    align-self: center;
+    margin-top: 0px;
+    color: #32C17D;
+    font-size: 12px;
+    background-color: transparent;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: 0px;
+
+}
+
+.mob-bottom-book-container{
+    background-color: #9BD9BC;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+
+
+/* TopRightStickersMobile */
+
+.mob-img-container-TPR{
+   margin-top: -15px;
+
+}
+
+.mob-top-right{
+    height: 60px;
+    width: 60px;
+
+}
+
+/* TLBookStickersMob */
+
+.mob-img-container{
+    margin-top: -15px;
+
+}
+
+.mob-top-left{
+    height: 60px;
+    width: 60px;
+
+}
+
+/* BCBookStickerMob */
+
+.mob-bottom-book{
+    height: 60px;
+    width: 60px;
+
+}

@@ -1,0 +1,57 @@
+.mob-skills-container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #8056E8;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    height: 115px;
+    border-radius: 4px;
+    margin-top: 12px;
+
+}
+
+.mob-ok{
+    background-color: transparent;
+    margin: 0px;
+    height: 60px;
+    margin-bottom: -20px;
+    /* padding-top: 10px; */
+    
+}
+
+.mob-skills-main-text{
+    background-color: transparent;
+    color:#F9DD61;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.mob-skills-context{
+    background-color: transparent;
+    color: #FF8EDE;
+    text-align: center;
+    margin-top: 0px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+
+.mob-list-img{
+    background-color: transparent;
+    align-self: flex-end;
+    height: 40px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: -20px;
+
+}

@@ -1,10 +1,11 @@
 .top-left {
+
     position: absolute;
     background-color: transparent;
     top: -20px; /* Adjust vertical offset */
   left: 0px; 
-  height: 100px;
-  width: 100px;
+  height: 100px; 
+  width: 100px; 
 }
 
 
@@ -13,7 +14,7 @@
     background-color: transparent; /* Match your background color */
     padding: 40px;
     text-align: center;
-    width: em;
+    
     border-radius: 10px; /* Ensure floating elements don't break layout */
   
 }

@@ -1,0 +1,90 @@
+.socials-mob-container{
+    display: flex;
+    background-color: #42AF71;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 14px;
+    border-radius: 4px;
+    /* align-content: center; */
+    width: 100%;
+    min-height: 72px;
+}
+
+.socials-mob-main-container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 100%;
+
+}
+/* github */
+.social-a-github{
+  
+
+}
+
+.social-img-github{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+/* linkedin */
+.social-a-linkedin{
+  
+
+
+}
+
+.social-img-linkedin{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+
+
+}
+/* mail */
+.social-a-mail{
+
+}
+
+.social-img-mail{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+
+
+}
+/* phone */
+.social-a-phone{
+
+}
+
+.social-img-phone{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+
+
+}
+
+.social-mob-context{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFC037;
+    margin-top: 0px;
+}

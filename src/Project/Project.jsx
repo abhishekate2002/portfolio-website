@@ -1,9 +1,8 @@
 import "./Project.css"
+import { useState } from "react"
 import Machine from "./Machine"
-
 import link from "../assets/openlink.svg"
-
-
+import DeskSubContent from "../Desktop/SubContent/DeskSubContent"
 
 function OpenLink(){
     return(
@@ -11,10 +10,20 @@ function OpenLink(){
     )
 }
 
+
+
 export default function Project() {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Function to open the modal
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
     return(
         <>
-            <div className="container">
+            <div className="container" onClick={() =>{openModal}}>
+            {isModalOpen && <DeskSubContent/>}
                 <OpenLink/>
                 <p className="qtext">What have I made so far ?🤔</p>
                 <h3 className="project-text">

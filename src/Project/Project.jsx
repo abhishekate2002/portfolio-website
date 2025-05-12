@@ -1,9 +1,8 @@
 import "./Project.css"
+import { useState } from "react"
 import Machine from "./Machine"
-
 import link from "../assets/openlink.svg"
-
-
+import DeskSubContent from "../Desktop/SubContent/DeskSubContent"
 
 function OpenLink(){
     return(
@@ -11,24 +10,21 @@ function OpenLink(){
     )
 }
 
-export default function Project() {
+export default function Project({children,onClick}) {
+  
     return(
         <>
-            <div className="container">
+            <div className="container" onClick={onClick} >
+                {/* <DeskSubContent/> */}
                 <OpenLink/>
                 <p className="qtext">What have I made so far ?🤔</p>
                 <h3 className="project-text">
                     Projects
                 </h3>
-                
                 <div className="image-container">
-                
-                    <Machine/>
-                    
-                </div>
-                    
-                
-                
+                    <Machine/> 
+                </div>   
+               
             </div>
         </>
         

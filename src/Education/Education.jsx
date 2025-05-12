@@ -4,9 +4,9 @@ import TLBookStickers from "./Stickers/TFBookStickers"
 import TopRightSticker from "./Stickers/TopRightSticker"
 
 
-export default function Education(){
+export default function Education({onClick}){
     return(
-        <div className="education-container">
+        <div className="education-container" onClick={onClick} >
 
             <div className="top-books-container">
             <TLBookStickers/>

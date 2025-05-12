@@ -7,24 +7,29 @@ import mail from "./../../assets/mailicon.svg"
 import phone from "../../assets/phone.svg"
 
 
-function IndividualIcon({ icon, alt, handleOnChange, className }) {
+function IndividualIcon({ icon, alt, link, className }) {
     return (
-        <img
+        <a href={link} target="_blank" rel="noopener noreferrer">
+            <img
             src={icon}
             alt={alt}
-            onClick={handleOnChange}
+            style={{ cursor: "pointer" }}
+            href={link}
+            // onClick={handleOnChange}
             className={className}
 
         />
+        </a>
+        
     );
 }
 
 export default function Socials() {
     const Icons = [
-        { src: github, className: "github" },
-        { src: linkedin, className: "linkedin" },
-        { src: mail, className: "mail" },
-        { src: phone, className: "phone" },
+        { src: github, className: "github" , link: "https://github.com/abhishekate2002"},
+        { src: linkedin, className: "linkedin", link:"https://www.linkedin.com/in/abhishekkate/" },
+        { src: mail, className: "mail", link:"mailto:abhikate06@outlook.com" },
+        { src: phone, className: "phone", link:"+44 07867231183" },
     ];
 
     return (
@@ -37,7 +42,8 @@ export default function Socials() {
                     icon={ic.src}
                     alt={ic.className}
                     className={ic.className}
-                    handleOnChange={null}
+                    link={ic.link}
+                    // handleOnChange={null}
             
                 />
             ))}

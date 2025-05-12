@@ -11,10 +11,10 @@ function OpenLink(){
     )
 }
 
-export default function Project() {
+export default function Project({onClick}) {
     return(
         <>
-            <div className="mob-project-container">
+            <div className="mob-project-container" onClick={onClick}>
                 <OpenLink/>
                 <p className="mob-project-qtext">What have I made so far ?🤔</p>
                 <h3 className="mob-project-project-text">

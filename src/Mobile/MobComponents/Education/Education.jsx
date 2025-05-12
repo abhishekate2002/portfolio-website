@@ -33,9 +33,9 @@ function BCBookStickerMob(){
 }
 
 
-export default function Education(){
+export default function Education({onClick}){
     return(
-        <div className="mob-education-container">
+        <div className="mob-education-container" onClick={onClick}>
 
             <div className="mob-top-books-container">
             {/* <TLBookStickers /> */}

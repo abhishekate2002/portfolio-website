@@ -1,0 +1,76 @@
+.skills-sub-main-container{
+    display: flexbox;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*  overflow: scroll; */
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+
+.list-of-skills-icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.icons-holder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    justify-items: flex-start;
+    overflow-y:auto;
+    margin-bottom: 3%;
+}
+
+.img-bg-holder{
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+border: 1px solid rgba(0, 0, 0, 0.32);
+
+padding: 1%;
+margin-right: 2%;
+margin-left: 2%;
+margin-top: 2%;
+
+}
+/* Width of the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px; /* for horizontal scrollbar */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.skills-head{
+    color: #F2EDE0;
+    font-size: 2rem;
+    margin-bottom: 0%;
+    margin-top: 3%;
+    /* margin-left: 1.5%; */
+    display: flex;
+    justify-self: flex-start;
+}
+
+.skills-subtext{
+    color: #F2EDE0;
+        font-style: italic;
+
+}
+
+.icon-inner-text{
+    color: #000000;
+}

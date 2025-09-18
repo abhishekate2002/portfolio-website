@@ -12,32 +12,21 @@ function OpenLink(){
 
 
 
-export default function Project() {
-
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // Function to open the modal
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
+export default function Project({children,onClick}) {
+  
     return(
         <>
-            <div className="container" onClick={() =>{openModal}}>
-            {isModalOpen && <DeskSubContent/>}
+            <div className="container" onClick={onClick} >
+                {/* <DeskSubContent/> */}
                 <OpenLink/>
                 <p className="qtext">What have I made so far ?🤔</p>
                 <h3 className="project-text">
                     Projects
                 </h3>
-                
                 <div className="image-container">
-                
-                    <Machine/>
-                    
-                </div>
-                    
-                
-                
+                    <Machine/> 
+                </div>   
+               
             </div>
         </>
         

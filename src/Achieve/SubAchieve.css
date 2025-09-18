@@ -1,0 +1,36 @@
+.sub-achieve-container{
+    display: flex;
+    flex-direction: column;
+    margin:4%;
+}
+
+
+.year-head{
+    display: flex;
+    align-self: center;
+        color: #F2EDE0;
+    font-size: 2rem;
+    /* margin-bottom: 0%;
+    
+    margin-left: 1.5%; */
+}
+
+.achieve-cards-holder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bullet-point{
+    width: auto;
+    align-content: flex-start;
+    margin: 3%;
+    
+}
+
+.sub{
+    display: flex;
+    text-align: center;
+    font-style: italic;
+}

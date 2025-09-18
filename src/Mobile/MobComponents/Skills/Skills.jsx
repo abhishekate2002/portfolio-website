@@ -3,9 +3,9 @@ import ok from"../../../assets/ok.svg"
 import listIcon from "../../../assets/list.svg"
 
 
-export default function Skills(){
+export default function Skills({onClick}){
     return(
-        <div className="mob-skills-container">
+        <div className="mob-skills-container" onClick={onClick}>
                     <img src={ok} alt="" className="mob-ok" />
                     <h3 className="mob-skills-main-text">
                         Skills

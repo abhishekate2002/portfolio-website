@@ -1,0 +1,12 @@
+.achieve-cards-holder{
+    display: flexbox;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height:100%;
+
+
+}
+
+.project-content{
+    overflow:hidden;
+}

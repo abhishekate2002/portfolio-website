@@ -21,9 +21,10 @@
 .mobile-app-container{
   display: flex;
   justify-content: center;
+  justify-self: center;
   align-content: center;
-  width: 100vh ;
-  height: 100vh;
+  max-width:max-content ;
+  height: 100%;
   /* background: #000000;
   --gap: 5em;
   --line: 1px;
@@ -46,6 +47,7 @@
 
 @media (max-width: 400px) {
     .mobile-app-container{
-        
+
+        display: flex;
     }
 }

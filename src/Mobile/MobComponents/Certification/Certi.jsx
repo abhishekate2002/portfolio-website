@@ -1,8 +1,8 @@
 import "./Certi.css"
 import rocket from "../../../assets/rocket.svg"
-export default function Certi(){
+export default function Certi({onClick}){
     return(
-        <div className="mob-certificate-main-container">
+        <div className="mob-certificate-main-container" onClick={onClick}>
                 <img src={rocket} alt="rocket" className="mob-rocket-image" />
 
                 <div className="mob-text-container-certificates">

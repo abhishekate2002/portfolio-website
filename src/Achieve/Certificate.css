@@ -11,6 +11,7 @@
     background-image: url("../assets/grouptalk.svg");
     background-position: bottom right;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .rocket-image{

@@ -1,0 +1,39 @@
+.project-card{
+    display: flexbox;
+    flex-direction: row; /* Arrange cards horizontally */
+    flex-wrap: wrap; 
+    max-width: 30%;
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(0, 0, 0, 0.37);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.7px);
+-webkit-backdrop-filter: blur(15.7px);
+border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+.project-card-1, .project-card-2, .project-card-3{
+    align-content: flex-start;
+    justify-content: center;
+    justify-items: center;
+    padding: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    overflow-y: hidden;
+    margin-top: 2%;
+    /* text-align: center; */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.45);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+
+
+

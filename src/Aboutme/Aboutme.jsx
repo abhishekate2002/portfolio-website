@@ -1,8 +1,8 @@
 import "./Aboutme.css"
 
-export default function Aboutme(){
+export default function Aboutme({onClick}){
     return(
-        <div className="about-me-container">
+        <div className="about-me-container" onClick={onClick}>
             <h4 className="main-heading-text">
                 About me
             </h4>

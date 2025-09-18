@@ -5,6 +5,7 @@
     height:300px;
     background-color: #9BD9BC;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .top-books-container{

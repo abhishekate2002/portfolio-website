@@ -1,16 +1,19 @@
 import "./DeskSubContent.css"
+// import { useState } from "react"
 
-export default function DeskSubContent({children}){
-    return(
-        <div className="desk-submain-container">
-<div style={styles.overlay}>ls
-    <div style={styles.modal}>
-      <h2>Modal Window</h2>
-      <p>This is the modal content.</p>
-      <button onClick={onClose}>Close</button>
+
+
+
+export default function DeskSubContent({children,height,width}) {
+  // if (!isOpen) return null; // Prevent unnecessary rendering
+
+  return (
+    <div className="desk-subcontent-overlay" 
+    style={{
+      height: height,
+      width: width,
+    }}>
+      {children}
     </div>
-  </div>
-  {children}
-</div>
-    )
+  );
 }

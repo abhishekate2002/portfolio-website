@@ -1,8 +1,8 @@
 import"./Certificate.css"
 import rocket from "../assets/rocket.svg"
-export default function Certificate(){
+export default function Certificate({onClick}){
     return(
-        <div className="certificate-main-container">
+        <div className="certificate-main-container" onClick={onClick}>
                 <img src={rocket} alt="rocket" className="rocket-image" />
 
                 <div className="text-container-certificates">

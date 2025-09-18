@@ -1,4 +1,4 @@
-import "./AchieveCArds.css"
+import "./AchieveCards.css"
 
 export default function AchieveCArds({children,year}){
     return(

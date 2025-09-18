@@ -5,6 +5,7 @@
     position: absolute;
     width: 65%;
     height: 85%;
+    overflow-y: scroll;
 /* From https://css.glass */
 background: rgba(0, 0, 0, 0.3);
 border-radius: 20px;

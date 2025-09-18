@@ -5,7 +5,7 @@ import ProjectCards from "./ProjectCards"
 // import { data } from "./projectData"
 
 export default function SubProject({close}){
-    return <DeskSubContent height="80%" width="60%">
+    return <DeskSubContent>
         <div className="project-content">
             {/* <h3>This is project Subcontent</h3> */}
             <button className="close-btn" onClick={close}>

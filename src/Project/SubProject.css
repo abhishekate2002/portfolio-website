@@ -17,9 +17,11 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin: 18px;
+    margin: 2%;
+    padding-bottom: 3%;
+    padding-top: 1%;
     color: #F2EDE0;
-    overflow-y: scroll;
+    overflow:scroll;
 }
 
 .project-cards-container{

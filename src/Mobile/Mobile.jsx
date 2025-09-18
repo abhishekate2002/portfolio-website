@@ -16,6 +16,7 @@ import SubContentMobile from "./SubContent/SubContentMobile.jsx"
 import SubProject from "./MobComponents/Project/SubProject.jsx";
 import SubEducationMobile from "./MobComponents/Education/SubEducationMobile.jsx";
 import MobSubSkills from "./MobComponents/Skills/MobSubSkills.jsx";
+import MobileSubCerti from "./MobComponents/Certification/MobileSubCerti.jsx";
 export default function Mobile(){
 
   const [activeComponent, setActiveComponent] = useState(null);
@@ -48,7 +49,7 @@ export default function Mobile(){
             <div className="group-from-edu-to-skills">
                 <Education onClick={() => openContent("Education")}/>
                 <Achieve/>
-                <Certi/>
+                <Certi onClick={() => openContent("Certi")}/>
                 <Skills onClick={() => openContent("Skills")}/>
             </div>
 
@@ -60,7 +61,8 @@ export default function Mobile(){
                         // Experience: <p>This is experience modal</p>,
                         // Education: <SubEducation  close={closeContent}/> // Add more modals here
                         Education: <SubEducationMobile close={closeContent}/>,
-                        Skills: <MobSubSkills close={closeContent}/>
+                        Skills: <MobSubSkills close={closeContent}/>,
+                        Certi: <MobileSubCerti close={closeContent}/>
                       }[activeComponent] || null,
                       document.body
                     )}

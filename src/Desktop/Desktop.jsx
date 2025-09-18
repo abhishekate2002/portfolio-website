@@ -15,7 +15,10 @@ import Certificate from "../Achieve/Certificate.jsx";
 import SubProject from "../Project/SubProject.jsx";
 import SubEducation from "../Education/SubEducation.jsx";
 import SubSkills from "../Skills/SubSkills.jsx";
-
+import SubCerti from "../Achieve/SubCerti.jsx";
+import SubAchieve from "../Achieve/SubAchieve.jsx"
+import SubExperince from "../Experince/SubExperince.jsx"
+import SubAboutMe from "../Aboutme/SubAboutMe.jsx";
 export default function Desktop() {
   const [activeComponent, setActiveComponent] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -46,8 +49,8 @@ export default function Desktop() {
             <div className="group-pf-edu-achi-cert">
               <Education onClick={() => openContent("Education")}/>
               <div className="group-of-achiv-and-certifi">
-                <Achievements onClick={() => openContent("Education")} />
-                <Certificate />
+                <Achievements onClick={() => openContent("Achievements")} />
+                <Certificate onClick={() => openContent("Certificate")} />
               </div>
             </div>
           </div>
@@ -59,18 +62,20 @@ export default function Desktop() {
 
           <div className="main-group-of-4-and-5">
             <Socials />
-            <Aboutme />
+            <Aboutme onClick={() => openContent("Aboutme")}/>
             <Skills onClick={() => openContent("Skills")}/>
           </div>
           {/* Render modal using React Portal when isOpen is true */}
           {isOpen &&
         createPortal(
           {
+            Aboutme: <SubAboutMe close={closeContent}/>,
             Project: <SubProject close={closeContent} />,
-            Experience: <p>This is experience modal</p>,
+            Experience: <SubExperince close={closeContent}/>,
             Education: <SubEducation  close={closeContent}/>,
             Skills: <SubSkills close={closeContent}/>,
-            Achievements: null
+            Certificate: <SubCerti close={closeContent}/>,
+            Achievements: <SubAchieve close={closeContent}/>
           }[activeComponent] || null,
           document.body
         )}
